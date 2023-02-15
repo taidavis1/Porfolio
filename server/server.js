@@ -12,7 +12,7 @@ app.use(cors());
 app.post("/api/send_email" , async(req, res) => {
     const { name, email, msg } = req.body
     try{
-        const to = "tpham1201@gmail.com";
+        const to = "##############@gmail.com";
         const from = process.env.EMAIL_USER;
         const message = `
             <h3>Hello, My name is ${name} </h3>
