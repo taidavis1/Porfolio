@@ -20,7 +20,7 @@ export default function Navbar(){
         <header>
             <div className={Scroll?'flex bg-white text-black justify-between mx-auto items-center p-5 z-50 tracking-wider w-screen md:h-24 h-16': 'container justify-between mx-auto flex text-center items-center p-3 text-white z-50 tracking-wider w-screen md:h-24 h-16'}>
                 <div className="block cursor-pointer">
-                    <img className= "w-14 md:w-20 rounded-full hover:opacity-75 hover:animate-bounce" src={logo} alt="logo"/>
+                    <img className= "w-14 md:w-20 rounded-full hover:opacity-75" src={logo} alt="logo"/>
                 </div>
                 <div className={!Scroll?"drop-shadow-2xl outlined-none md:outline-dashed sm:border-none hover:opacity-75 cursor-pointer ml-5 px-4 py-2 md:px-10 md:py-3 md:hover:scale-110 transition delay-150 duration-300 ease-out": " hover:opacity-75 cursor-pointer ml-5 px-4 py-2 md:px-10 md:py-3 hover:scale-110 transition delay-150 duration-300 ease-out outlined-none md:outline-dashed"}>
                     <button className="justify-center tracking-wide">

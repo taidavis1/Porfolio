@@ -11,29 +11,16 @@ export default function Info(){
                     <div className="flex justify-center underline italic text-sm md:max-xl:text-4xl xl:text-5xl">
                         <span>About Me:</span>
                     </div>
-                    <div className="mt-2 md:mt-5 text-sm flex justify-center xl:text-3xl md:text-lg">
-                        <span>Currently Attended UC Merced</span>
-                    </div>
-                    <div className="flex text-sm justify-center xl:text-3xl md:text-lg">
-                        <span>Major In Computer Science</span>
-                    </div>
-                    <div className="flex text-sm  justify-center xl:text-3xl md:text-lg">
-                        <span>Will Graduate In May 15,2024</span>
-                    </div>
-                    <div className="flex text-sm justify-center xl:text-3xl md:text-lg">
-                        <span>Getting My Bachelors Degree....</span>
-                    </div>
-                    <div className="flex  text-sm justify-center xl:text-3xl md:text-lg">
-                        <span>Research in UC Merced</span>
-                    </div>
-                    <div className="flex  text-sm justify-center xl:text-3xl md:text-lg">
-                        <span>Department of Mechanical Engineer Lab</span>
-                    </div>
-                    <div className="flex text-sm justify-center xl:text-3xl md:text-lg">
-                        <span>Freelancer for about 2 years</span>
-                    </div>
-                    <div className="flex text-sm justify-center xl:text-3xl md:text-lg">
-                        <span>Have Develop some websites and app</span>
+                    <div className="mt-2 md:mt-5 text-sm flex justify-center text-center xl:text-3xl md:text-lg">
+                        <span>
+                            I'm Tai Pham, a computer science student at UC Merced and a freelance web and app developer. With a passion for technology, I actively research and explore the latest advancements in computer science.
+
+                            As a freelancer, I specialize in creating custom websites and applications for businesses. I've had the privilege of collaborating with diverse clients, helping them establish their online presence and enhance their digital capabilities.
+
+                            I'm dedicated to delivering exceptional results, combining technical expertise with a creative mindset. I stay updated with industry best practices to develop innovative and scalable solutions that align with my clients' goals.
+
+                            I'm an avid learner, continuously expanding my skills and engaging with the tech community. If you have a project in mind or want to discuss how we can work together, feel free to reach out. Let's bring your vision to life!
+                        </span>
                     </div>
                     <div className="flex justify-center xl:text-2xl text-sm md:mt-5 text-blue-400">
                         <span>Connect With Me:</span>
