@@ -10,7 +10,7 @@ export default function Contact(){
     const [email , setEmail] = useState("");
     const [name , setName] = useState("");
     const [msg , setMsg] = useState("");
-    const send = async (e) =>{
+    const send = async (e) =>{ 
         e.preventDefault();
         const data = {
             name,
